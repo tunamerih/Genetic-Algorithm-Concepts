@@ -1,10 +1,6 @@
 ## Genetic Algorithm
 
-``` 
-git status
-git add
-git commit
-```
+
 
 **Population** = (Number of)Possible Solutions
 For Knapsack Problem it is combination of items in our backpack
@@ -13,18 +9,18 @@ Each possible combination can be encoded with binary
 If an item exist in backpack it is represented with 1 
 If an item does not exist in backpack it is represented with 0
 ``` 
->For example:
+For example:
 
->All possible items = Laptop, Sunglasses, Mug, Cellphone, Mouse, Keyboard
+All possible items = Laptop, Sunglasses, Mug, Cellphone, Mouse, Keyboard
 
->Possible Solution 1
->Laptop, Sunglasses -> [1,1,0,0,0,0]
+Possible Solution 1
+Laptop, Sunglasses -> [1,1,0,0,0,0]
 
->Possible Solution 2
->Laptop, Mug, Mouse, Keyboard -> [1,0,1,0,1,1]
+Possible Solution 2
+Laptop, Mug, Mouse, Keyboard -> [1,0,1,0,1,1]
 
->Possible Solution 3 
->Laptop, Sunglasses, Mug, Cellphone, Mouse -> [1,1,1,1,1,0]
+Possible Solution 3 
+Laptop, Sunglasses, Mug, Cellphone, Mouse -> [1,1,1,1,1,0]
 ```
 Every (item) 1 and 0 is gene.
 
