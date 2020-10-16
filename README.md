@@ -1,6 +1,6 @@
 ## Genetic Algorithm
 
-```
+``` 
 git status
 git add
 git commit
@@ -12,7 +12,7 @@ For Knapsack Problem it is combination of items in our backpack
 Each possible combination can be encoded with binary
 If an item exist in backpack it is represented with 1 
 If an item does not exist in backpack it is represented with 0
-
+``` 
 >For example:
 
 >All possible items = Laptop, Sunglasses, Mug, Cellphone, Mouse, Keyboard
@@ -25,7 +25,7 @@ If an item does not exist in backpack it is represented with 0
 
 >Possible Solution 3 
 >Laptop, Sunglasses, Mug, Cellphone, Mouse -> [1,1,1,1,1,0]
-
+```
 Every (item) 1 and 0 is gene.
 
 0 -> **gene**.
