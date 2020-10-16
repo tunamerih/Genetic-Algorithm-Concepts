@@ -1,5 +1,11 @@
 ## Genetic Algorithm
 
+```
+git status
+git add
+git commit
+```
+
 **Population** = (Number of)Possible Solutions
 For Knapsack Problem it is combination of items in our backpack
 
@@ -20,12 +26,14 @@ If an item does not exist in backpack it is represented with 0
 >Possible Solution 3 
 >Laptop, Sunglasses, Mug, Cellphone, Mouse -> [1,1,1,1,1,0]
 
-Every (item) 1 or 0 is gene.
-0 -> **gene**
-1 -> **gene**
+Every (item) 1 and 0 is gene.
+
+0 -> **gene**.
+
+1 -> **gene**.
 
 
-[0,0,1] -> **chromosome**
+[0,0,1] -> **chromosome**.
 
 The set of all current solutions are called <b>Generation</b>.
 
