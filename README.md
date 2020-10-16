@@ -21,24 +21,26 @@ If an item does not exist in backpack it is represented with 0
 >Laptop, Sunglasses, Mug, Cellphone, Mouse -> [1,1,1,1,1,0]
 
 Every (item) 1 or 0 is gene.
-0 -> gene
-1 -> gene
-[0,0,1] -> chromosome
+0 -> **gene**
+1 -> **gene**
 
-The set of all current solutions are called <b>Generation</b>
 
-Natural Selection
+[0,0,1] -> **chromosome**
 
-We use a Fitness Function to determine how good a given solution is.
-In our case the fitness function returns Sum of the weight of items (as long as it fits the weight limit rule)
+The set of all current solutions are called <b>Generation</b>.
+
+## Natural Selection
+
+We use a **Fitness Function** to determine how good a given solution is.
+In our case the fitness function returns *Sum of the weight of items* (as long as it fits the weight limit rule)
 If weight limit is exceeded, then fitness function returns 0
 
 We are selecting the parents of next solutions
 We take two parents and cut their genomes at random spot and switch the endings
 This is called single point crossover function and it generates two new solutions for next generation
-Example:
+>Example:
 Parent 1 -> 1 0 0 1
-Parent 2 -> 0 1 1 0
+>Parent 2 -> 0 1 1 0
 
 Random point -> * * * [*]
 Parent 1 and Parent 2 switches
@@ -67,9 +69,13 @@ That is where elitism comes in. Elitism means we will copy our best n (for examp
 
 Using the same gene pool limits our discovery of better solutions.To discover better solutions we use mutations.
 During the mutation phase we randomly switch a bit in our binary representations.
+
 Example:
+
 0 0 0 1
+
   |
+  
 Randomly selected spot
 
 0 0 0 1 becomes
@@ -77,7 +83,7 @@ Randomly selected spot
 
 This loop continues until;
 1) No possible solution is found
-or
+*or*
 2) For maximum number of generations
 
 Parts needed for genetic algorithms
@@ -88,9 +94,9 @@ Parts needed for genetic algorithms
 5) Crossover Function
 6) Mutation Function
 
-Türkçe - Turkish
+# Türkçe - Turkish
 
-Genetik Algoritma
+## Genetik Algoritma
 
 Popülasyon = Olası Çözümler('in sayısı)
 Sırt Çantası Problemi için, sırt çantamızdaki öğelerin kombinasyonudur
