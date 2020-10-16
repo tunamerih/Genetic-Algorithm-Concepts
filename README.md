@@ -1,12 +1,13 @@
-## Genetic Algorithm Summary
+# Some Genetic Algorithm Concepts
 
+**Population** = (Number of) Possible Solutions
 
-
-**Population** = (Number of)Possible Solutions
 For Knapsack Problem it is combination of items in our backpack
 
 Each possible combination can be encoded with binary
+
 If an item exist in backpack it is represented with 1 
+
 If an item does not exist in backpack it is represented with 0
 ``` 
 For example:
@@ -43,7 +44,7 @@ We are selecting the parents of next solutions
 We take two parents and cut their genomes at random spot and switch the endings
 This is called single point crossover function and it generates two new solutions for next generation
 ``` 
-Example:
+Single Point Crossover Example:
 
 Parent 1 -> 1 0 0 1
 
@@ -70,11 +71,15 @@ Parent 1 -> 0 0 0 1 1 1
 Parent 2 -> 1 1 1 0 0 0
 
 Random point -> * * * [*] * *
+
 Parent 1 and Parent 2 switches
+
 Parent 1 -> 0 0 0 [1 1 1]
+
 Parent 2 -> 1 1 1 [0 0 0]
 
 new Parent 1 -> 0 0 0 0 0 0
+
 new Parent 2 -> 1 1 1 1 1 1
 ``` 
 We repeat the process until we have enough solutions(Population(Integer))
@@ -86,7 +91,7 @@ Using the same gene pool limits our discovery of better solutions.To discover be
 During the **mutation** phase we randomly switch a bit in our binary representations.
 
 ``` 
-Example:
+Mutation Example:
 
 0 [0] 0 1
 
