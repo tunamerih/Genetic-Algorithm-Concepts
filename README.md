@@ -1,6 +1,6 @@
-Genetic Algorithm
+## Genetic Algorithm
 
-Population = (Number of)Possible Solutions
+**Population** = (Number of)Possible Solutions
 For Knapsack Problem it is combination of items in our backpack
 
 Each possible combination can be encoded with binary
