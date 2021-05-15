@@ -1,4 +1,4 @@
-# Some Genetic Algorithm Concepts
+# Genetic Algorithm Concepts
 
 **Population** = (Number of) Possible Solutions
 
